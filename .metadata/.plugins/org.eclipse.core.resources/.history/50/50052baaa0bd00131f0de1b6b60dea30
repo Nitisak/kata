@@ -1,0 +1,11 @@
+
+public class RomanClock {
+
+	public Object ConvertToRoman(int i) {
+		if ( i == 1) {
+			return "I";
+		}
+		return null;
+	}
+
+}

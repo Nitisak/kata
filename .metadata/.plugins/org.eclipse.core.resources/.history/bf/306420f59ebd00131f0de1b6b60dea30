@@ -1,0 +1,15 @@
+package com.romanclock;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class romanclock {
+
+	@Test
+	public void caseinput_should_return_I() {
+		ConvertRoman = new ConvertRoman();
+		
+	}
+
+}

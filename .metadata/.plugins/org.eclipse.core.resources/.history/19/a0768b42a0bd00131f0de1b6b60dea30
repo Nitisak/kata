@@ -1,0 +1,13 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class RomanClockTest {
+
+	@Test
+	public void RomanCase_input1_should_return_I() {
+		fail("Not yet implemented");
+	}
+
+}

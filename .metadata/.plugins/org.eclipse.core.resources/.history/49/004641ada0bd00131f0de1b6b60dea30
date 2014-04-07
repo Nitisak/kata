@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class RomanClockTest {
+
+	@Test
+	public void RomanCase_input1_should_return_I() {
+		RomanClock myClock = new RomanClock();
+		assert.assertEquals("I", myClock.ConvertToRoman(1));
+	}
+
+}

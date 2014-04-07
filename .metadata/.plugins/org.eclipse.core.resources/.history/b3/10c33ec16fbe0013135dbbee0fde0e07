@@ -1,0 +1,50 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class RomanClockTest {
+
+	@Test
+	public void RomanCase_input1_should_return_I() {
+		RomanClock myClock = new RomanClock();
+		assertEquals("I", myClock.ConvertToRoman(1));
+	}
+	
+	@Test
+	public void RomanCase_input2_should_return_II() {
+		RomanClock myClock = new RomanClock();
+		assertEquals("II", myClock.ConvertToRoman(2));
+	}
+
+	@Test
+	public void RomanCase_input3_should_return_III() {
+		RomanClock myClock = new RomanClock();
+		assertEquals("III", myClock.ConvertToRoman(3));
+	}
+	
+	@Test
+	public void RomanCase_input4_should_return_IV(){
+		RomanClock myClock = new RomanClock();
+		assertEquals("IV", myClock.ConvertToRoman(4));
+	}
+	
+	@Test
+	public void RomanCase_input5_should_return_V(){
+		RomanClock myClock = new RomanClock();
+		assertEquals("V", myClock.ConvertToRoman(5));
+	}
+	
+	@Test
+	public void RomanCase_input0_should_return_error(){
+		RomanClock myClock = new RomanClock();
+		assertEquals("ERR", myClock.ConvertToRoman(0));
+	}
+	
+	@Test
+	public void RomanCase_input13_should_return_error(){
+		RomanClock myClock = new RomanClock();
+		assertEquals("ERR", myClock.ConvertToRoman(13));
+	}
+	
+}

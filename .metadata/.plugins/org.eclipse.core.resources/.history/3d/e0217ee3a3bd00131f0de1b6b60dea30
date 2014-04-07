@@ -1,0 +1,17 @@
+
+public class RomanClock {
+
+	public String ConvertToRoman(int i) {
+		String res = "";
+		
+		if(i==4 ){
+			return "IV";
+		}
+		
+		for (int x = 0; x < i; x++) {
+			res += "I";
+		}
+		return res;
+	}
+
+}
